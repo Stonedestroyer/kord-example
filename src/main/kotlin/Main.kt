@@ -22,7 +22,6 @@ suspend fun main(args: Array<String>) {
     val kordBuilder = KordBuilder(dotenv["TOKEN"])
     kordBuilder.defaultStrategy = EntitySupplyStrategy.cacheWithRestFallback
     val kord = kordBuilder.build()
-    val pingPong = ReactionEmoji.Unicode("\uD83C\uDFD3")
 
     kord.on<MessageCreateEvent> {
         this.cancel()
