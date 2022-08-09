@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.kord:kord-core:0.8.0-M15")
+    implementation("dev.kord:kord-core:changes-no-event-scope-SNAPSHOT")
     implementation("io.github.cdimascio:dotenv-kotlin:6.3.1")
     implementation("org.codehaus.groovy:groovy:3.0.12")
     implementation("org.fusesource.jansi:jansi:2.4.0")
